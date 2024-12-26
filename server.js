@@ -50,7 +50,7 @@ app.post("/api/payment", async (req, res) => {
             PartyA: phoneNumber,
             PartyB: credentials.shortCode,
             PhoneNumber: phoneNumber,
-            CallBackURL: "http://your_callback_url.com/callback",
+            CallBackURL: "https://nigel43.github.io/mpesathree//callback",
             AccountReference: "Ecommerce",
             TransactionDesc: "Payment for product"
         }, {
