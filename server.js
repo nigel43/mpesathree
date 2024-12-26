@@ -45,7 +45,7 @@ app.post("/api/payment", async (req, res) => {
             BusinessShortCode: credentials.shortCode,
             Password: password,
             Timestamp: timestamp,
-            TransactionType: "CustomerPayBillOnline",
+            TransactionType: "CustomerBuyGoodsOnline",
             Amount: amount,
             PartyA: phoneNumber,
             PartyB: credentials.shortCode,
